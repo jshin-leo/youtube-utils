@@ -41,3 +41,4 @@ To generate transcript chunks from YouTube videos:
 ```bash
 python YouTube_transcript_chunks.py
 ```
+⚠️ Use this tool responsibly. Do not use it to violate terms of service, copyright laws, or data privacy regulations.
