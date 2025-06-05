@@ -2,6 +2,18 @@
 
 This repository contains two Python scripts for working with YouTube links and transcripts:
 
+## Purpose
+
+This project is intended to help researchers and developers make publicly available YouTube content more accessible for use in machine learning (ML) workflows, such as:
+
+- **Retrieval-Augmented Generation (RAG):** The transcript chunks can serve as context for question-answering or summarization models.
+- **Natural Language Processing (NLP):** Enables building datasets for topic modeling, classification, or semantic search.
+- **Speech-to-Text Evaluation:** Allows testing or comparing different transcription models against real-world content.
+
+It is especially useful when working with educational, research, or tutorial videos that are publicly accessible and intended for reuse.
+
+⚠️ **Use responsibly**: This tool is not intended for scraping copyrighted or private content without permission.
+
 ## 1. YouTube_Scraper.py
 A web crawler that:
 - Accepts a list of starting URLs
@@ -41,4 +53,3 @@ To generate transcript chunks from YouTube videos:
 ```bash
 python YouTube_transcript_chunks.py
 ```
-⚠️ Use this tool responsibly. Do not use it to violate terms of service, copyright laws, or data privacy regulations.
