@@ -1,3 +1,15 @@
 git+https://github.com/openai/whisper.git
 yt-dlp
 pandas
+sentence_transformers==2.5.1
+nltk
+requests==2.31.0
+beautifulsoup4==4.12.3
+selenium==4.19.0
+spacy==3.7.4
+torch>=1.11.0
+transformers>=4.40.0,<4.41.0
+scipy<1.12.0  # to avoid NumPy 2.x breakage
+numpy>=1.23.5,<2.0.0
+tensorflow==2.15.0
+keras==2.15.0
